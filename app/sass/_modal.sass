@@ -1,0 +1,47 @@
+.smoke-base
+  display: table
+  position: fixed
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0,0,0,.3)
+  z-index: 1000
+.smoke-dialog_wrapper
+  display: table-cell
+  position: relative
+  vertical-align: middle
+.smoke-dialog
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  width: 544px
+  height: 322px
+  margin: 0 auto
+  font-family: "OpenSans", sans-serif
+  font-size: 22px
+  font-weight: bold
+  text-align: center
+  line-height: 30px
+  border-radius: 2px
+  background: $backgroundColor
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1)
+.smoke-dialog-buttons
+  position: absolute
+  top: 0
+  right: 0
+.smoke-dialog-buttons-ok, .smoke-dialog-buttons-cancel
+  position: absolute
+  top: 0
+  right: 0
+  width: 16px
+  height: 16px
+  margin: 24px 24px
+  border: none
+  background: $backgroundColor
+  background-image: url("../img/close.png")
+  background-repeat: no-repeat
+  background-size: contain
+  cursor: pointer
+
